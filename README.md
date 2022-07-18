@@ -17,7 +17,17 @@ The focus of this study is to help locate areas where the City Bike could potent
 
 ## Source
 * Citi Bike Data: https://ride.citibikenyc.com/system-data
+  * Jan 2022: https://s3.amazonaws.com/tripdata/202201-citibike-tripdata.csv.zip 
+  * Feb 2022: https://s3.amazonaws.com/tripdata/202202-citibike-tripdata.csv.zip
+  * Mar 2022: https://s3.amazonaws.com/tripdata/202203-citibike-tripdata.csv.zip
+  * Apr 2022: https://s3.amazonaws.com/tripdata/202204-citibike-tripdata.csv.zip
+  * May 2022: https://s3.amazonaws.com/tripdata/202205-citibike-tripdata.csv.zip
+  * Jun 2022: https://s3.amazonaws.com/tripdata/202206-citbike-tripdata.csv.zip
+
 
 ## Tableau Public Address
 * https://public.tableau.com/views/CityBikeChallenge_16581669032710/CityBikeStudy?:language=en-US&:display_count=n&:origin=viz_share_link
 *  Tableau twbx file is included in the repository
+
+## Notes
+* Please note all cleaned csv files are included in the repository with the exception of "dow_duration_table.csv". The file is +50MB and the best way to retrieve it would be to run through the provided jupyter notebook. 
